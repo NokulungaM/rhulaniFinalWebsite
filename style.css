@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 15px;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+
+.navbar a {
+    font-size: 15px;
+    color: #821e8b;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 5px;
+    transition: .3s;
+    padding-right: 10px;
+    position: relative;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: #d3dde1;
+}
+
+@media only screen and (min-width: 768px) {
+    .mobile-nav {
+        display: none;
+        }
+}
+
+  
+/* 
+body, html {
+    overflow: hidden;
+  } */
+  
+  .home {
+    height: 120vh;
+    background-image: url('images/WhatsApp\ Image\ 2024-06-02\ at\ 16.00.31.jpeg');
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+  }
+  
+  .home-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 470px;
+    height: 450px;
+  }
+  
+  .home-image img {
+    position: relative;
+    margin-bottom: -200px; 
+    max-width: 380px;
+  }
+  
+  .home-content {
+    max-width: 600px;
+    color: #fff;
+    text-align: right;
+  }
+  
+  
+  .home-content {
+    max-width: 600px;
+    color: #fff;
+    text-align: right;
+  }
+  
+
+.home-content {
+  max-width: 600px;
+  color: #fff;
+  text-align: right;
+}
+
+
+.home-content h1 {
+    font-size: 35px;
+    line-height: 1.2;
+}
+
+.home-content h3 {
+    font-size: 30px;
+    color:#40033f;
+    -webkit-text-stroke: .5px #141111;
+    background-image: linear-gradient(#0a0909, #e6f14a);
+    background-repeat: no-repeat;
+    background-position: -410px 0;
+    animation: animateText 6s linear infinite;
+}
+
+
+.home-content p {
+    font-weight: bolder;
+    color: #40033f;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.home-sci {
+    margin: 25px 0 40px;
+}
+
+.home-sci a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #a7a704;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #eef6f6;
+    text-decoration: none;
+    margin-left: 12px;
+    transition: .5s;
+}
+
+.home-sci a:hover {
+    background: #0d0d0d;
+    color: #e3eeef;
+    border-color: #ddebef;
+    box-shadow: 0 0 10px #0e0f0f;
+}
+
+.btn {
+    padding: 12px 35px;
+    background: #0c0c0c;
+    border-radius: 40px;
+    font-size: 17px;
+    color: #e9eef4;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    box-shadow: 0 0 10px #0e0f0f;
+    transition: .5s;
+}
+
+.btn:hover {
+    box-shadow: none;
+}
+@keyframes animateText {
+    0% {
+      background-position: -100% 0;
+    }
+    100% {
+      background-position: 100% 0;
+    }
+  }
+  
+  .About h1 {
+    font-size: 35px;
+    color: transparent;
+    -webkit-text-stroke: .5px #141111;
+    line-height: 1.2;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(90deg, #fdfdfc, #ecf3ae);
+    background-repeat: no-repeat;
+    background-size: 200% 100%; 
+    animation: animateText 6s linear infinite;
+  }
+  
+  
+.About p {
+    height: 60vh;
+    display: flex;
+    padding: 0 10%;
+    font-size: large;
+    margin: 0 auto 20px;
+    color: #ede260;
+ 
+}
+
+.About-background {
+    background-image: url('images/aboutbackground1.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white; 
+
+}
+
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.header {
+    background-color: #0a0909;
+    padding: 10px 0;
+    color: #fff;
+    text-align: center;
+}
+
+.navbar a {
+    color: #fff;
+    padding: 14px 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.navbar a.active, .navbar a:hover {
+    background-color: #0a0909;
+    border-radius: 4px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.contact-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.submit-btn {
+    background-color: #060506;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #eff851;
+}
+
+
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.project {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.project img {
+    max-width: 400px;
+    height: auto;
+}
+
+.project-description {
+    max-width: 600px;
+}
+
+.contact-background {
+    /* background-image: url('images/images/pexels-zaksheuskaya-709412-1561020.jpg'); */
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: rgb(8, 8, 8); 
+}
